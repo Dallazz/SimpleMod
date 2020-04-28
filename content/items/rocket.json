@@ -1,0 +1,11 @@
+"rocket": {			 
+       "speed": 5.5,			 
+       "damage": 500,			 
+       "bulletWidth": 7,			 
+       "bulletHeight": 9,			 
+       "shootEffect": "shootSmall",
+       "smokeEffect": "shootSmallSmoke",
+       "ammoMultiplier": 1.0,
+       "splashDamageRadius": 25,
+       "splashDamage":150
+}

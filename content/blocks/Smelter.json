@@ -1,0 +1,27 @@
+{
+"type": "GenericSmelter",
+"name": "IronSmelter",
+"description": "This smelter makes iron ingot",
+"outputItem": {"item": "iron-ingot","amount": 1 },
+"size": 1
+"hasPower": true,
+"hasItems": true,
+"craftTime": 45,
+"updateEffect": "smeltsmoke",
+"consumes": {
+"power": 1,
+"items": {
+"items": [
+{ "item": "iron", "amount": 1 }
+]
+}
+},
+"requirements": [
+{ "item": "lead", "amount": 35},
+{ "item": "silicon", "amount": 10}
+],
+"category": "crafting",
+"research": "router",
+"idleSound": "respawning"
+"idleSoundVolume": 0.5
+}

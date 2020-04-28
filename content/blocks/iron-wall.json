@@ -1,0 +1,12 @@
+{
+"name": "Iron wall",
+"description": "Simple wall for starting defence",
+"type": "Wall",
+"health": 600,
+"size": 1,
+"requirements": [
+{ "item": "iron-ingot", "amount": 6 }
+],
+"category": "defense",
+"research": "titanium-wall"
+}

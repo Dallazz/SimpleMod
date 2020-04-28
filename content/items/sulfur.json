@@ -1,0 +1,8 @@
+{
+"type": "material",
+"name": "sulfur",
+"description": "[white]Sulfur!",
+"cost": 2.0,
+"hardness": 2,
+"color": "#94b814"
+}
