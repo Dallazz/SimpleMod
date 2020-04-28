@@ -1,0 +1,32 @@
+{
+"type": "GenericSmelter",
+"name": "Rocket constructor",
+"description": "This factory makes rockets!",
+"outputItem": {"item": "rocket","amount": 1 },
+"size": 2
+"hasPower": true,
+"hasItems": true,
+"craftTime": 45,
+"updateEffect": "smeltsmoke",
+"consumes": {
+"power": 5,
+"items": {
+"items": [
+{ "item": "blast-compound", "amount": 10 },
+{ "item": "iron-ingot", "amount": 10 },
+{ "item": "metaglass", "amount": 10 },
+{ "item": "sand", "amount": 10 },
+]
+}
+},
+"requirements": [
+{ "item": "thorium", "amount": 350},
+{ "item": "microscheme", "amount": 150},
+{ "item": "iron-ingot", "amount": 750},
+{ "item": "lead", "amount": 520}
+],
+"category": "crafting",
+"research": "router",
+"idleSound": "respawning"
+"idleSoundVolume": 0.5
+}

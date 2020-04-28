@@ -1,0 +1,8 @@
+{
+"type": "material",
+"name": "iron",
+"description": "[white]It`s iron johny!",
+"cost": 2.0,
+"hardness": 2,
+"color": "#4c3720"
+}

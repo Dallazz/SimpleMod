@@ -1,0 +1,22 @@
+{
+"name": "Smart Drill",
+"description": "this drill uses microschemes for optimize drill process and drill faster",
+"type": "Drill",
+"size": 2,
+"tier": 6,
+"drillTime": 50,
+"consumes": {
+"power": 1,
+"liquid": {
+"liquid": "cryofluid", "amount": 0.5,
+}
+},
+"requirements": [
+{ "item": "microscheme", "amount": 50 },
+{ "item": "iron-ingot", "amount": 120 },
+{ "item": "titanium", "amount": 30 },
+{ "item": "graphite", "amount": 15 }
+],
+"category": "production",
+"research": "laser-drill"
+}

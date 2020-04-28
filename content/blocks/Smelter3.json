@@ -1,0 +1,31 @@
+{
+"type": "GenericSmelter",
+"name": "Microscheme fabric",
+"description": "Makes microschemes",
+"outputItem": {"item": "microscheme","amount": 1},
+"size": 2
+"hasPower": true,
+"hasItems": true,
+"craftTime": 120,
+"updateEffect": "smeltsmoke",
+"consumes": {
+"power": 1,
+"items": {
+"items": [
+{ "item": "gold-ingot", "amount": 10 },
+{ "item": "silicon", "amount": 10 },
+{ "item": "iron-ingot", "amount": 10 },
+{ "item": "plastanium", "amount": 10 }
+]
+}
+},
+"requirements": [
+{ "item": "iron-ingot", "amount": 120},
+{ "item": "silicon", "amount": 50},
+{ "item": "gold-ingot", "amount": 10}
+],
+"category": "crafting",
+"research": "router",
+"idleSound": "respawning"
+"idleSoundVolume": 0.5
+}
