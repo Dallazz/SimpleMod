@@ -1,0 +1,32 @@
+{
+ "type": "itemTurret",
+ "name": "Rocket launcher",
+ "description": "Launches rockets",
+ "health": 700,
+ "size": 2,
+ "reload": 5,
+ "range": 150,
+ "inaccuracy": 3,
+ "rotatespeed": 1,
+ "ammo": {
+    "rocket": {
+         "damage": 500,
+         "fragBulletRadius": 10,
+         "fragBullet": {
+                "damage": 200,
+                "speed": 1,
+                "lifetime": 100,
+},
+         "fragBullets": 7
+}
+}
+ "requirements": [
+{ "item": "microscheme", "amount": 370 }
+{ "item": "lead", "amount": 580 }
+{ "item": "iron-ingot", "amount": 420 }
+{ "item": "gold-ingot", "amount": 70 }
+ ],
+ "category": "turret"
+ "shootSound": "laser"
+ "research": "duo"
+}
